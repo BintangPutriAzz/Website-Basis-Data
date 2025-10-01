@@ -1,2 +1,200 @@
-# Website-Basis-Data
-Tugas Basis data
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+  header {
+    background: #004080;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  header a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  header a:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    color: #004080;
+  }
+  footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+  }
+</style>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Tugas Basis Data - UBP Karawang</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    header {
+      background: #004080;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    header a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      color: #004080;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      background: #eee;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Beranda</a>
+    <a href="post1.html">Post 1</a>
+    <a href="post2.html">Post 2</a>
+    <a href="post3.html">Post 3</a>
+    <a href="post4.html">Post 4</a>
+  </header>
+
+  <h1>Tugas Basis Data</h1>
+  <h2>Selamat Datang</h2>
+  <form action="proses.php" method="post">
+    <label for="nama">Nama: Bintang Putri Az zahra</label><br>
+    <label for="kelas">Kelas: IF24E</label><br>
+    <label for="nim">NIM: 24416255201175</label><br>
+  </form>
+
+  <p>Website ini dibuat untuk memenuhi tugas matakuliah Basis Data. Dibawah ini beberapa postingan yang saya buat, Silahkan untuk dipilih.</p>
+
+  <h2>Daftar Postingan</h2>
+  <ul>
+    <li><a href="post1.html">Post 1: Apa yang Anda Harapkan dari MK Basis Data</a></li>
+    <li><a href="post2.html">Post 2: Apa itu Basis Data</a></li>
+    <li><a href="post3.html">Post 3: Apa itu Konseptual DB</a></li>
+    <li><a href="post4.html">Post 4: Apa itu Physical Model</a></li>
+  </ul>
+
+  <footer>
+    <p>Kunjungi kampus saya di <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a></p>
+  </footer>
+  <title>Post 1 - Harapan dari MK Basis Data</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    header { background: #004080; padding: 10px; border-radius: 5px; }
+    header a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    header a:hover { text-decoration: underline; }
+    h1 { color: #004080; }
+    footer { margin-top: 30px; padding: 10px; background: #eee; border-radius: 5px; text-align: center; }
+  </style>
+  <header>
+    <a href="index.html">Beranda</a>
+    <a href="post1.html">Post 1</a>
+    <a href="post2.html">Post 2</a>
+    <a href="post3.html">Post 3</a>
+    <a href="post4.html">Post 4</a>
+  </header>
+
+  <h1>Apa yang Anda Harapkan dari MK Basis Data</h1>
+  <p>Saya berharap mata kuliah Basis Data dapat memberikan pemahaman yang kuat tentang konsep penyimpanan data, cara merancang database yang baik, serta menguasai SQL untuk mengelola data dengan efektif.</p>
+
+  <footer>
+    <p>Kunjungi kampus saya di <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a></p>
+  </footer>
+  <title>Post 2 - Apa itu Basis Data</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    header { background: #004080; padding: 10px; border-radius: 5px; }
+    header a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    header a:hover { text-decoration: underline; }
+    h1 { color: #004080; }
+    footer { margin-top: 30px; padding: 10px; background: #eee; border-radius: 5px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Beranda</a>
+    <a href="post1.html">Post 1</a>
+    <a href="post2.html">Post 2</a>
+    <a href="post3.html">Post 3</a>
+    <a href="post4.html">Post 4</a>
+  </header>
+
+  <h1>Apa itu Basis Data</h1>
+  <p>Basis data adalah kumpulan data yang terorganisir dan saling berhubungan, disimpan secara elektronik, serta dapat diakses dan dikelola dengan mudah menggunakan sistem manajemen basis data (DBMS).</p>
+
+  <footer>
+    <p>Kunjungi kampus saya di <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a></p>
+  </footer>
+  <title>Post 3 - Konseptual DB</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    header { background: #004080; padding: 10px; border-radius: 5px; }
+    header a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    header a:hover { text-decoration: underline; }
+    h1 { color: #004080; }
+    footer { margin-top: 30px; padding: 10px; background: #eee; border-radius: 5px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Beranda</a>
+    <a href="post1.html">Post 1</a>
+    <a href="post2.html">Post 2</a>
+    <a href="post3.html">Post 3</a>
+    <a href="post4.html">Post 4</a>
+  </header>
+
+  <h1>Apa itu Konseptual DB</h1>
+  <p>Konseptual Database adalah model perancangan basis data yang menggambarkan struktur logis dari data tanpa memperhatikan bagaimana data tersebut akan diimplementasikan secara fisik. Biasanya digambarkan dengan ERD (Entity Relationship Diagram).</p>
+
+  <footer>
+    <p>Kunjungi kampus saya di <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a></p>
+  </footer>
+  <title>Post 4 - Physical Model</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    header { background: #004080; padding: 10px; border-radius: 5px; }
+    header a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    header a:hover { text-decoration: underline; }
+    h1 { color: #004080; }
+    footer { margin-top: 30px; padding: 10px; background: #eee; border-radius: 5px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Beranda</a>
+    <a href="post1.html">Post 1</a>
+    <a href="post2.html">Post 2</a>
+    <a href="post3.html">Post 3</a>
+    <a href="post4.html">Post 4</a>
+  </header>
+
+  <h1>Apa itu Physical Model</h1>
+  <p>Physical Model adalah model basis data yang menjelaskan bagaimana data benar-benar disimpan di dalam sistem komputer, termasuk detail struktur tabel, tipe data, indeks, dan relasi antar tabel dalam DBMS.</p>
+
+  <footer>
+    <p>Kunjungi kampus saya di <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a></p>
+  </footer>
+</body>
+</html>
+
